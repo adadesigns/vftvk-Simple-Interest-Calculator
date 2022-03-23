@@ -16,11 +16,16 @@ function updateRate()
 
 function alertAmount()
 {
-    var amount = documen.getElementById("principal").value;
+    var amount = document.getElementById("principal").value;
     if(amount <0)
-        alert("Please select a pozitive value!");
+     { alert("Please select a pozitive value!");
+     document.getElementById("principal").focus;
+     }  
     else if (amount == null)
+      {
         alert("Please select a value!");
+        document.getElementById("principal").focus;
+      } 
     return;
 
 }
