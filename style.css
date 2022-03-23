@@ -12,6 +12,7 @@ font-family:veranda
     padding:20px;
     border-radius:25px;
     margin:auto;
+    justify-content: center;
     align-items: center;
 
 }
