@@ -13,3 +13,14 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
+
+function alertAmount()
+{
+    var amount = documen.getElementById("principal").value;
+    if(amount <0)
+        alert("Please select a pozitive value!");
+    else if (amount == null)
+        alert("Please select a value!");
+    return;
+
+}
