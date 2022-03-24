@@ -14,18 +14,19 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 
+//Alert function
 function alertAmount()
 {
     var amount = document.getElementById("principal").value;
-    if(amount <=0)
-     { alert("Please select a pozitive value!");
-     document.getElementById("principal").focus();
-     }  
-    else if (amount == null)
+    if (amount == null)
       {
         alert("Please select a value!");
         document.getElementById("principal").focus();
       } 
+    else if(amount <=0)
+     { alert("Please select a pozitive value!");
+     document.getElementById("principal").focus();
+     }  
     return;
 
 }
