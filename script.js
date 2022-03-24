@@ -1,3 +1,4 @@
+//This function is not used
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -8,13 +9,14 @@ function compute()
     var yearFuture =now.getYear() + parseInt(years);
 
 }
+//Get rate function
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
 
-//Alert function
+//Alert function to test if the amount field is empty or <=0
 function alertAmount()
 {
     var amount = document.getElementById("principal").value;
