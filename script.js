@@ -18,7 +18,7 @@ function updateRate()
 function alertAmount()
 {
     var amount = document.getElementById("principal").value;
-    if (amount == null)
+    if (amount == "")
       {
         alert("Please select a value!");
         document.getElementById("principal").focus();
